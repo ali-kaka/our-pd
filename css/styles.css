@@ -1,0 +1,64 @@
+/*-- styles connecting --*/
+@import url(header-footer.css);
+@import url(main.css);
+@import url(tables.css);
+
+/*-- style of genarall --*/
+*{
+     padding: 0;
+     margin: 0;
+     text-decoration: none;
+     /* list-style: none; */
+     box-sizing: border-box;
+     letter-spacing: 1px;
+     word-spacing: 2px;
+     scroll-behavior: smooth;
+}
+
+/*-- this colors is for this webpage --*/
+:root{
+     /*-- black colors --*/
+     --BLACK: black;
+     --BLACK1: rgb(40,40,40);
+     --BLACK2: rgb(65,65,65);
+     --BLACK3: rgb(90,90,90);
+     /*-- white colors --*/
+     --WHIE: white;
+     --WHITE1: rgb(225, 225, 225);
+     --WHITE2: rgb(190, 190, 190);
+     /*-- red colors --*/
+     --RED: red;
+     --RED1: rgb(200, 0, 0);
+     --RED2: rgb(255, 90, 90);
+     /*-- green colors --*/
+     --GREEN: GREEN;
+     --GREEN1: rgb(0, 190, 0);
+     --GREEN2: rgb(0, 255, 0);
+     /*-- blue colors --*/
+     --BLUE: blue;
+     --BLUE1: rgb(0, 0, 200);
+     --BLUE2: rgb(70, 70, 255);
+     /*-- mix colors --*/
+     --ORANGE: rgb(255, 166, 0);
+     --CYAN: hsl(180, 100%, 50%);
+     --CYAN1: rgb(42, 144, 144);
+     --PINK: rgb(255, 0, 136);
+     --PINK1: rgb(185, 0, 100);
+     --PURPLE: rgb(149, 0, 149);
+     --PURPLE1:rgb(255, 0, 255);
+     --GOLD:rgb(255, 215, 0);
+     --YELLOW:rgb(255, 255, 0);
+     --OLIVE:rgb(128, 128, 0);
+}
+
+/*-- font size --*/
+:root{
+     --S: 10px;
+     --M: 20px;
+     --L: 25px;
+     --XL: 40px;
+}
+.active{
+     border-bottom: solid 3px gold;
+     border-radius: 3px;
+}

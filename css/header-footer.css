@@ -1,0 +1,121 @@
+header{
+     position: sticky;
+     top: 0;
+     width: 100%;
+     height: auto;
+     background-color: var(--BLACK1);
+     padding: 0 40px;
+     z-index: 100;
+}
+.header-content{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 5px 0;
+     flex-wrap: wrap;
+     border-bottom: dotted 1px var(--GOLD);
+}
+.header-content span{
+     color: var(--GOLD);
+     padding: 3px;
+     font-size: var(--L);
+     cursor: context-menu;
+}
+#register{
+     cursor: pointer;
+     border-radius: 3px;
+     transition: all 0.3s ease-in-out;
+}
+/*------------ navebar section ------------*/
+.navebar{
+     display: flex;
+     justify-content: flex-start;
+     align-items: center;
+     padding: 5px 0;
+     flex-wrap: wrap;
+}
+.navebar li{
+     display: inline-block;
+     padding: 3px;
+     margin-right: 30px;
+     border-radius: 3px;
+     font-size: var(--L);
+     transition: all 0.3s ease-in-out;
+}
+.navebar li a{
+     color: var(--GOLD);
+     
+}
+/*------------ hovers section ------------*/
+.header-content #register:hover{
+     background-color: var(--BLACK3);
+     color: var(--GREEN1);
+}
+.navebar li:hover{
+     background-color: var(--BLACK3);
+}
+
+/*------------ responsive section using mediaquerys ------------*/
+@media screen and (max-width: 500px) {
+     .footer_content{
+          display: flex;
+          justify-content: center;
+          /* flex-direction: column; */
+     }
+ }
+
+/*------------ footer section ------------*/
+footer{ 
+     background-color: var(--BLACK1);
+     position: absolute;
+     width: 100%;
+     height: auto;
+     padding: 10px 40px;
+}
+footer h2{
+     text-align: center;
+     color: var(--GOLD);
+     border-bottom: 1px dotted var(--GOLD);
+     margin: 5px 0;
+     padding: 3px 0;
+}
+.footer_content{
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-around;
+     align-items: center;
+     
+}
+.footer_section h2{
+     display: inline-block;
+     color: var(--GOLD);
+     padding-bottom: 3px;
+     margin-bottom: 20px;
+     border-bottom: 2px solid var(--GOLD);
+}
+.footer_section{
+     margin-bottom: auto;     /*-- its important for header of footer to fix --*/
+     
+}
+.footer_section li{
+     margin-bottom: 20px;
+     font-size: var(--M);
+     list-style: none;
+     transition: all 0.5s ease-in-out;
+}
+.footer_section li a{
+     color: var(--GOLD);
+     padding: 3px;
+     border-radius: 3px;
+     transition: all 0.3s ease-in-out;
+}
+/*------------ hovers section ------------*/
+.footer_section li a:hover{
+     background-color: var(--BLACK3);
+}
+.copyright{
+     padding-top: 5px;
+     border-top: dotted 1px var(--GOLD);
+     color: var(--GOLD);
+     text-align: center;
+}

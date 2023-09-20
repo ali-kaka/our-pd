@@ -1,0 +1,153 @@
+/*------------ main section ------------*/
+/* body{
+     background-image: url(../images/point-backgrund.jpg);
+     background-size: cover;
+     height: 100vh;
+     width: 100%;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+} */
+
+.welcome{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-wrap: wrap;
+     width: 90%;
+     height: 5rem;
+     margin-left: 50%;
+     transform: translate(-50%);
+     border-bottom: 3px solid var(--ORANGE);
+}
+.welcome img{
+     width: 12%;
+     height: auto;
+     padding: 5px;
+}
+
+h1{text-align: center; color: var(--RED); margin-top: 50px;}
+main{
+     width: 90%;
+     height: auto;
+     margin-left: 50%;
+     transform: translate(-50%);
+}
+
+/*------------ section ------------*/
+.section{
+     display: flex;
+     justify-content: flex-start;
+     flex-wrap: wrap;
+     border: dotted 1px var(--GREEN2);
+     border-radius: 5px;
+     padding: 10px;
+     margin: 10px 0;
+}
+.section h2{
+     padding: 2px;
+     background: linear-gradient(150deg, lightgrey, rgb(65, 255, 65));
+     display: inline-block;
+     border-radius: 3px;
+     margin-top: 10px;
+}
+.section p{
+     display: inline-block;
+     margin-bottom: 5px;
+     font-size: var(--M);
+}
+.section img{
+     display: flex;
+     justify-content: flex-start;
+     align-items: center;
+     width: 19rem;
+     height: auto;
+     border-radius: 5px;margin: 5px;
+}
+.section .img_scob{
+     background: linear-gradient(150deg, pink, yellow, gold);
+     padding: 5px;
+     border-radius: 5px;
+     margin: 5px;
+     width: 20rem;
+}
+.card{
+     border-radius: 5px;
+     padding: 5px;
+     margin: 5px;
+     font-size: var(--L);
+     width: 20rem;
+     height: auto;
+     background: linear-gradient(150deg, pink, yellow, gold);
+     
+}
+.card ul{
+     margin-left: 5px;
+}
+.card li{
+     margin-left: 25px;
+     font-size: var(--M);
+     user-select: none;
+}
+/*------------ hover section ------------*/
+.card:hover{
+     background: linear-gradient(150deg, cyan, lime);
+}
+
+/*------------ contact ------------*/
+.header-content{
+     position: sticky;
+     top: 0;
+     width: 100%;
+     height: auto;
+     background-color: var(--BLACK1);
+     padding: 0 40px;
+     z-index: 100;
+}
+.contact{
+     width: 70%;
+     height: auto;
+     border: dotted 1px var(--GREEN2);
+     border-radius: 5px;
+     padding: 10px;
+     margin-left: 50%;
+     transform: translate(-50%);
+}
+.contact h2{
+     text-align: center;
+     color: var(--RED);
+     padding: 5px 0;
+     
+}
+.contact a{
+     font-size: var(--M);
+     padding: 2px;
+     background-color: var(--OLIVE);
+     border-radius: 3px;
+     color: var(--WHITE1);
+}
+.contact p{
+     font-size: var(--M);
+     padding: 5px 0;
+}
+/*-- scroll to top --*/
+/* .to_up{
+     font-size: var(--L);
+     background-color: var(--OLIVE);
+     color: var(--GOLD);
+     border-radius: 5px;
+     padding: 5px;
+     margin-left: 95%;
+     cursor: pointer;
+} */
+
+/*-- scrollbar --*/
+::-webkit-scrollbar{
+     background: transparent;
+     width: 8px;
+}
+::-webkit-scrollbar-thumb{
+     background: linear-gradient(cyan,lime, gold);
+     width: 5px;
+     border-radius: 5px;
+}
