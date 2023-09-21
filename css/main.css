@@ -37,7 +37,6 @@ main{
 /*------------ section ------------*/
 .section{
      display: flex;
-     justify-content: flex-start;
      flex-wrap: wrap;
      border: dotted 1px var(--GREEN2);
      border-radius: 5px;
@@ -46,6 +45,7 @@ main{
 }
 .section h2{
      padding: 2px;
+     display: inline;
      background: linear-gradient(150deg, lightgrey, rgb(65, 255, 65));
      display: inline-block;
      border-radius: 3px;
